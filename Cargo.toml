@@ -1,0 +1,10 @@
+[package]
+name = "utopia-user-agent"
+description = "User-agent parsing (OS, client, device) compatible with utopia-php/user-agent."
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+license = "BSD-3-Clause"
+
+[dependencies]
+regex = "1"

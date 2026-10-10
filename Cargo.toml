@@ -1,6 +1,6 @@
 [package]
 name = "utopia-user-agent"
-description = "User-agent parsing (operating system, client, device, bot) compatible with utopia-php/user-agent."
+description = "User-agent parsing: operating system, client, device and bot."
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.88"
@@ -8,3 +8,6 @@ license = "BSD-3-Clause"
 
 [dependencies]
 php-std = { version = "0.1.0", git = "https://github.com/utopia-rs/php-std" }
+
+[package.metadata.utopia]
+php-sync = "d974af3929377f17e1de012ba58dba21a02ed866"

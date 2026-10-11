@@ -7,6 +7,8 @@ rust-version = "1.88"
 license = "BSD-3-Clause"
 
 [dependencies]
+aho-corasick = "1"
+memchr = "2"
 php-std = { version = "0.1.0", git = "https://github.com/utopia-rs/php-std" }
 
 [package.metadata.utopia]
